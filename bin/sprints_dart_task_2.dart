@@ -1,5 +1,5 @@
+List<int> numbers = [25, 60, 100, 93, 88, 79];
 void categorize() {
-  List<int> numbers = [25, 60, 100, 93, 88, 79];
   for (var counter in numbers) {
     switch (counter % 2) {
       case 0:
@@ -17,7 +17,6 @@ void categorize() {
 }
 
 void categorize2() {
-  List<int> numbers = [25, 60, 100, 93, 88, 79];
   for (var counter in numbers) {
     switch (counter.isEven) {
       case true:
@@ -35,5 +34,5 @@ void categorize2() {
 }
 main() {
   categorize();
-  categorize2();
+
 }
