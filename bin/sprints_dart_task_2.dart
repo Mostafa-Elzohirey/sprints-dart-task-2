@@ -16,7 +16,7 @@ void categorize() {
   }
 }
 
-void categorize2() {
+void categorize2() { //another solution using the .isEven function
   for (var counter in numbers) {
     switch (counter.isEven) {
       case true:
