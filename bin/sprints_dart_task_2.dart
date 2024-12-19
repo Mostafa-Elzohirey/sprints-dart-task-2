@@ -16,6 +16,24 @@ void categorize() {
   }
 }
 
+void categorize2() {
+  List<int> numbers = [25, 60, 100, 93, 88, 79];
+  for (var counter in numbers) {
+    switch (counter.isEven) {
+      case true:
+        {
+          print("$counter is even");
+          break;
+        }
+      case false:
+        {
+          print("$counter is odd");
+          break;
+        }
+    }
+  }
+}
 main() {
   categorize();
+  categorize2();
 }
